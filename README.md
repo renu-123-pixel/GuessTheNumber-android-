@@ -98,8 +98,6 @@ GuessTheNumber/
 └── local.properties
 
 ```
-📷 Screenshots
-Start	Guessing	Win
 
 🧑‍💻 Author
 Renu Ekka
