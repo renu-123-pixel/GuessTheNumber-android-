@@ -16,8 +16,11 @@ A fun and simple Android app where users try to guess a randomly generated numbe
 
 ## 📸 Demo
 
-<img src="guessTheNumber.gif" width="300">
-<img src="part-2.gif" width="300">
+<p align="center">
+  <img src="guessTheNumber.gif" width="300" alt="Demo 1">
+  <img src="part-2.gif" width="300" alt="Demo 2">
+</p>
+
 <sub>"The above implementation demonstrates the functioning of the app on my device."</sub>
 
 ---
