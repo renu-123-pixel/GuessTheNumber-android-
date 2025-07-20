@@ -1,25 +1,65 @@
-# Guess the Number Android Game 🎮
+# 🎯 Guess The Number - Android App
 
-A simple yet engaging Android game where players guess a randomly generated number based on selected difficulty (2, 3, or 4 digits). Built with Java and Android Studio.
+A fun and simple Android app where users try to guess a randomly generated number between 1 and 100.
 
 ---
 
 ## 📱 Features
-- **Splash Screen**: Animated logo and text with a 5-second timer or click-to-skip.
-- **Difficulty Selection**: Choose between 2, 3, or 4-digit numbers.
-- **Gameplay**:
-  - Hints ("Increase/Decrease your guess") after each attempt.
-  - Track remaining attempts (10 guesses total).
-  - Win/lose dialogs with replay options.
-- **Smooth Animations**: Rotating/scale animations for splash screen elements.
-- **Validation**: Input checks for empty/non-numeric values.
+
+- 🎲 Random number generation every round
+- 📉 Hints after every guess: "Too High", "Too Low", or "Correct"
+- 🔄 Restart the game after a correct guess
+- 🧠 Clean and beginner-friendly UI
+- 🧮 Tracks the number of attempts
 
 ---
 
-## 🛠️ Installation
-1. **Prerequisites**:
-   - Android Studio (latest version)
-   - Android SDK & Gradle 8.7
-2. **Steps**:
+## 📸 Demo
+
+![Guess The Number Demo](assets/demo.gif)  
+<sub>*Replace this with your actual demo GIF or screenshots*</sub>
+
+---
+
+## 🚀 Getting Started
+
+### ✅ Requirements
+
+- Android Studio (latest version recommended)
+- Android SDK 21+
+- Java or Kotlin
+
+### 🔧 Installation
+
+1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/guessthenumber.git
+   git clone https://github.com/your-username/guess-the-number-app.git
+Open the project in Android Studio:
+
+File > Open > Select the cloned folder
+
+Build and run on your emulator or Android device.
+
+🧱 Built With
+Java or Kotlin
+
+Android SDK
+
+XML for UI
+
+## 📂 Folder Structure
+
+GuessTheNumber/
+├── app/
+│   ├── src/
+│   │   └── main/
+│   │       ├── java/com/example/guessthenumber/MainActivity.java
+│   │       ├── res/layout/activity_main.xml
+│   │       └── AndroidManifest.xml
+📷 Screenshots
+Start	Guessing	Win
+
+🧑‍💻 Author
+Renu Ekka
+
+
