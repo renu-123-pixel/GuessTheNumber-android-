@@ -48,7 +48,7 @@ Android SDK
 XML for UI
 
 ## 📂 Folder Structure
-
+```
 GuessTheNumber/
 ├── app/
 │   ├── src/
@@ -56,6 +56,7 @@ GuessTheNumber/
 │   │       ├── java/com/example/guessthenumber/MainActivity.java
 │   │       ├── res/layout/activity_main.xml
 │   │       └── AndroidManifest.xml
+```
 📷 Screenshots
 Start	Guessing	Win
 
