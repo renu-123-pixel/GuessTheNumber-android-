@@ -18,7 +18,7 @@ A fun and simple Android app where users try to guess a randomly generated numbe
 
 <img src="guessTheNumber.gif" width="300">
 <img src="part-2.gif" width="300">
-<sub>*Replace this with your actual demo GIF or screenshots*</sub>
+<sub>"The above implementation demonstrates the functioning of the app on my device."</sub>
 
 ---
 
