@@ -56,11 +56,47 @@ XML for UI
 ```
 GuessTheNumber/
 ├── app/
-│   ├── src/
-│   │   └── main/
-│   │       ├── java/com/example/guessthenumber/MainActivity.java
-│   │       ├── res/layout/activity_main.xml
-│   │       └── AndroidManifest.xml
+│   ├── manifests/
+│   │   └── AndroidManifest.xml
+│   ├── java/
+│   │   └── com.examplefourthjuly.guessthenumber/
+│   │       ├── MainActivity.java
+│   │       ├── GameActivity.java
+│   │       └── SplashActivity.java
+│   ├── res/
+│   │   ├── anim/
+│   │   │   ├── image_anim.xml
+│   │   │   └── text_anim.xml
+│   │   ├── drawable/
+│   │   │   ├── guess_pic_nobg.png
+│   │   │   ├── guess_the_no_icon.png
+│   │   │   ├── guessimg.jpeg
+│   │   │   ├── rounded_corners.xml
+│   │   │   └── rounded_corners_2.xml
+│   │   ├── layout/
+│   │   │   ├── activity_main.xml
+│   │   │   ├── activity_game.xml
+│   │   │   └── activity_splash.xml
+│   │   ├── mipmap/
+│   │   │   ├── ic_launcher/
+│   │   │   └── ic_launcher_round/
+│   │   ├── values/
+│   │   │   ├── colors.xml
+│   │   │   ├── refs.xml
+│   │   │   ├── strings.xml
+│   │   │   └── themes/
+│   │   │       ├── themes.xml
+│   │   │       └── themes.xml (night)
+│   │   └── xml/
+│   │       ├── backup_rules.xml
+│   │       └── data_extraction_rules.xml
+├── build.gradle.kts (Project Level)
+├── settings.gradle.kts
+├── gradle.properties
+├── proguard-rules.pro
+├── libs.versions.toml
+└── local.properties
+
 ```
 📷 Screenshots
 Start	Guessing	Win
